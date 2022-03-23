@@ -30,15 +30,15 @@ public class Project {
         return this.description;
     }
 
-    void setDescription(String description) {
+    public void setDescription(String description) {
         this.description = description;
     }
 
-    Set<TaskGroup> getGroups() { return groups; }
+    public Set<TaskGroup> getGroups() { return groups; }
 
-    void setGroups(Set<TaskGroup> groups) { this.groups = groups; }
+    public void setGroups(Set<TaskGroup> groups) { this.groups = groups; }
 
-    Set<ProjectStep> getSteps() { return steps; }
+    public Set<ProjectStep> getSteps() { return steps; }
 
-    void setSteps(final Set<ProjectStep> steps) { this.steps = steps; }
+    public void setSteps(final Set<ProjectStep> steps) { this.steps = steps; }
 }
